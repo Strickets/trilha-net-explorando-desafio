@@ -4,7 +4,8 @@ namespace explorando.Models
     {
         public Suite(){}
 
-        public Suite(string tipoSuite, int capacidade, decimal valorDiaria){
+        public Suite(string tipoSuite, int capacidade, decimal valorDiaria)
+{
             TipoSuite = tipoSuite;
             Capacidade = capacidade;
             ValorDiaria = valorDiaria;
